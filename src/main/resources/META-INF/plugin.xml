@@ -16,6 +16,9 @@
     <description><![CDATA[
     This plugin simply detects JSON files using some basic heuristics on the contents.
     Currently it only checks for a $schema string field near the beginning of the file.
+
+    To use this plugin, install it, and it will detect JSON schema files (whether they have a file extension or not)
+    and open them as JSON.
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
