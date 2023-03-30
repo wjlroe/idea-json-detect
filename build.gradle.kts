@@ -30,6 +30,10 @@ tasks {
         kotlinOptions.jvmTarget = "11"
     }
 
+    buildSearchableOptions {
+        enabled = false
+    }
+
     patchPluginXml {
         sinceBuild.set("213")
     }
