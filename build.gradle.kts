@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.github.wjlroe"
-version = "1.3"
+version = "1.4"
 
 repositories {
     mavenCentral()
@@ -36,7 +36,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("213")
-        untilBuild.set("")
+        untilBuild.set("242.*")
     }
 
     signPlugin {
