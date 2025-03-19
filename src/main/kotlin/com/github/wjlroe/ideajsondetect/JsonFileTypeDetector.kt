@@ -13,7 +13,7 @@ class JsonFileTypeDetector : FileTypeRegistry.FileTypeDetector {
                 return null
             }
             if (firstCharsIfText[0] != '{') {
-               return null
+                return null
             }
             // ok looks like JSON? Check for a field in particular
             if ("\"\$schema\"" in firstCharsIfText) {
